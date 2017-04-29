@@ -1,6 +1,6 @@
 import java.io.*;
 import java.util.*;
-public class Sumsqaures
+public class Sumsquares
 {
 	public static void main(String args[])
 	{
