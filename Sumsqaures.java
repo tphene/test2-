@@ -24,10 +24,5 @@ public class Sumsqaures
 			}
 		}
 		ArrayList<ArrayList<Integer>> alist = new ArrayList<ArrayList<Integer>>();
-		ArrayList temp = new ArrayList();
-		for(int i:a)
-		{
-			for(Object o:hs.)
-		}
 	}
 }
