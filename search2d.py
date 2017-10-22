@@ -9,7 +9,6 @@ j = row * col -1
 key = 50
 while(i<=j):
     m = (i+j)/2
-    #print(m)
     mi = m/col
     mj = m%col
     if(a[mi][mj]==key):
@@ -19,4 +18,5 @@ while(i<=j):
         j = m-1
     else:
         i = m+1
+
 
