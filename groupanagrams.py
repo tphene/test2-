@@ -1,5 +1,6 @@
 a = ['ate','tea','and','dan','tae']
 mp = {}
+
 for i in a:
 	t = sorted(i)
 	print i
