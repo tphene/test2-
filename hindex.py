@@ -1,7 +1,7 @@
 a = [3,0,1,6,5]
 
 n = len(a)
-#a.sort(reverse=True)
+a.sort()
 print(a)
 
 # Brute force mechanism
@@ -30,6 +30,7 @@ for i in range(n,-1,-1):
         print(count)
         break
 '''
+'''
 n = len(a)
 l,r = 0,n-1
 while l <= r:
@@ -41,6 +42,21 @@ while l <= r:
         l = mid+1
 
 print(n-l)
+'''
+n = len(a)
+l = 0
+r = n-1
+while(l<=r):
+    mid = (l+r)/2
+    if(a[mid]>=n-mid):
+        r = mid -1
+    else:
+        l = mid +1
+
+print(n-l)
+print(r)
+
+
 
 
 
